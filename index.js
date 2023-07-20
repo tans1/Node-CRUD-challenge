@@ -167,19 +167,21 @@ module.exports = app;
 
 /*
 
+Reviewed by Temesgen Zewude, A2SV G43 Member
+
 Positives:
 
     Modularization:
-    The code is relatively well-organized with separate endpoints for each CRUD operation.
+        The code is relatively well-organized with separate endpoints for each CRUD operation.
 
     Error Handling: 
-    The code includes error handling for various scenarios, such as missing data or incorrect data types with appropriate error responses. 
+        The code includes error handling for various scenarios, such as missing data or incorrect data types with appropriate error responses. 
 
     RESTful API:
-    The code follows RESTful principles by using appropriate HTTP methods (POST, GET, PUT, DELETE) and URL paths for different operations.
+        The code follows RESTful principles by using appropriate HTTP methods (POST, GET, PUT, DELETE) and URL paths for different operations.
 
     In-memory Database: 
-    The use of an in-memory database (using the persons array) is a simple and effective approach for demonstration purposes.
+        The use of an in-memory database (using the persons array) is a simple and effective approach for demonstration purposes.
 
 
 Improvements:
